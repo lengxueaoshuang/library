@@ -1,5 +1,9 @@
+from app import LibraryApp
+
 def main():
-    print("Hello from library!")
+    """启动图书管理系统"""
+    app = LibraryApp()
+    app.mainloop()
 
 
 if __name__ == "__main__":
